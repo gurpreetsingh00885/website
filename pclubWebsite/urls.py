@@ -19,6 +19,7 @@ from django.views.generic import TemplateView
 from django.views.generic.base import RedirectView
 
 urlpatterns = [
+    url(r'^blog/', include('simpleblog.urls')),
     url(r'^sw.js', (TemplateView.as_view(template_name="sw.js", content_type='application/javascript', )), name='sw.js'),
     url(r'^admin/', admin.site.urls),
     url(r'^home/', include('home.urls')),

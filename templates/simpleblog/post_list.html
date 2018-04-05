@@ -1,0 +1,13 @@
+{% extends 'base.html' %} 
+{% load staticfiles %}
+
+{% block styles %}
+<link rel="stylesheet" type="text/css" href="{% static 'blog/css/blog-home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+{% include page_template %}
+
+{% endblock %}
+

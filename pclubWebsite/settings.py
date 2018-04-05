@@ -39,8 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
 
     'home',
+    'el_pagination',
+    'markdown_deux',
+    'pagedown',
+    'simpleblog',
 ]
 
 MIDDLEWARE = [
@@ -133,4 +138,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+SITE_ID = 1

@@ -1,0 +1,19 @@
+.card {
+	color: black !important;
+	height: auto;
+	padding: 0.5em;
+}
+
+.card-text {
+	word-wrap: break-word !important;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.card-body {
+	padding: 1.25rem !important;
+}
+
+h2 {
+	font-weight: 500 !important;
+}
